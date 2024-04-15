@@ -33,14 +33,14 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    height: 64rem;
+    height: 62rem;
     width: 88rem;
     min-width: 284px;
     padding: 2.5rem;
     background-color: var(--White);
     border-radius: 28px;
     gap: 1rem;
-    /* margin: 2rem; */
+    transform: scale(1.04);
 }
 .section {
     display: flex;
@@ -77,6 +77,7 @@ body {
     height: 40;
     min-height: min-content;
     width: 100%;
+    padding: 0 2rem;
 }
 .form__label {
     margin-bottom: 1rem;
