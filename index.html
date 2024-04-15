@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+        Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+</head>
+
+<body>
+    <main class="main ">
+        <section class="section ">
+            <h1 class="section__heading">Stay updated!</h1>
+            <p class="section__para">
+                join 60,000+ product managers receiving monthly updates on:
+            </p>
+            <ul class="section__point-para ">
+                <img src="assets/images/icon-list.svg" alt="icon-list" class="section__list-icon" />
+                <span class="section__list-text">
+                    Product discovery and building what matters
+                </span>
+            </ul>
+            <ul class="section__point-para ">
+                <img src="assets/images/icon-list.svg" alt="icon-list" class="section__list-icon" />
+                <span class="section__list-text">
+                    Measuring to ensure updates are a success
+                </span>
+            </ul>
+            <ul class="section__point-para u-margin-botton-4">
+                <img src="assets/images/icon-list.svg" alt="icon-list" class="section__list-icon" />
+                <span class="section__list-text"> And much more! </span>
+            </ul>
+            <div class="form">
+                <div class="form__label">
+                    <label for="Email Address" class="form__label-1">Email Address</label>
+                    <label for="Email Address" class="form__label-2">Valid email required!</label>
+                </div>
+                <input type="email" class="form__input-box" placeholder="email@ucompany.com" id="EmailAddress"
+                    required />
+                <button class="form__btn" onclick="checkIt()">
+                    Subscribe to monthly newsletter
+                </button>
+            </div>
+        </section>
+        <div class="img__box">
+            <img src="assets/images/illustration-sign-up-desktop.svg" alt="destop img" class="img-1">
+            <img src="assets/images/illustration-sign-up-mobile.svg" alt="mobile img" class="img-2 ">
+        </div>
+    </main>
+    <main class="main-2 hidden">
+        <div class="great">
+            <img src="assets/images/icon-success.svg" alt="icon-success">
+            <h1 class='section__heading'>Thanks for subscribing!</h1>
+            <p class="section__para">A confirmation email has been sent to
+                <strong>ash@loremcompany.com</strong>, Please open it and click
+                the button inside to confirm your subscription.
+            </p>
+        </div>
+        <button class="form__btn">Dismiss message</button>
+    </main>
+    <div class="attribution ">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+            href="#">harish kumar s </a>.
+    </div>
+</body>
+<script src="email.js"></script>
+
+</html>
