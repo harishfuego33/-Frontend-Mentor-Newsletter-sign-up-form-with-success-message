@@ -150,7 +150,7 @@ body {
 }
 .attribution {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
 }
 @media only screen and (max-width: 892px) {
     .main {
